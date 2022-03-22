@@ -3,8 +3,11 @@ package dev.redy1aye.copperequipment.misc;
 import dev.redy1aye.copperequipment.CopperEquipment;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.tags.ItemTags;
+import net.minecraft.item.Item;
+import net.minecraft.tag.TagKey;
+import net.minecraft.util.Identifier;
 import net.minecraft.world.item.Item;
+import net.minecraft.util.registry.Registry;
 
 public class Tags {
     public static class Items {
