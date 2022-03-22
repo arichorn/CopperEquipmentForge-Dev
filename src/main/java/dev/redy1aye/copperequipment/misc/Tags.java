@@ -25,11 +25,11 @@ public class Tags {
 
 
         private static net.minecraftforge.common.Tags.IOptionalNamedTag<Item> createTag(String name) {
-            return ItemTags.createOptional(new ResourceLocation(CopperEquipment.MOD_ID, name));
+            return ForgeItemTags.createOptional(new ResourceLocation(CopperEquipment.MOD_ID, name));
         }
 
         private static net.minecraftforge.common.Tags.IOptionalNamedTag<Item> createForgeTag(String name) {
-            return ItemTags.createOptional(new ResourceLocation("forge", name));
+            return ForgeItemTags.createOptional(new ResourceLocation("forge", name));
         }
     }
 }
